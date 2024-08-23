@@ -1,0 +1,255 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333; /* Dark text for readability */
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Header Styling */
+header {
+    background-color: #ffebf0; /* Soft pink background */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #f5c6cb; /* Slightly darker pink for border */
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    padding: 5px 10px;
+    background-color: #e2e6ea; /* Light gray background for links */
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #d6d6d6; /* Slightly darker gray on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #ff6f61; /* Coral color for headings */
+}
+
+/* RSVP Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px;
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffebf0; /* Match header background */
+    border-top: 2px solid #f5c6cb;
+    margin-top: 20px;
+}
+/* General Styling */
+body {
+    font-family: 'Georgia', serif;
+    color: #333;
+    background-color: #f4f4f9; /* Light, neutral background */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #f8f9fa; /* Slightly off-white background for header/footer */
+    border-bottom: 1px solid #ddd; /* Light border */
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    border-top: 1px solid #ddd; /* Light border at the top for footer */
+    margin-top: 20px;
+}
+
+/* Navigation Styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+    padding: 5px 10px;
+    background-color: #e2e6ea; /* Light gray background for links */
+    border-radius: 4px;
+}
+
+nav ul li a:hover {
+    background-color: #d6d6d6; /* Slightly darker gray on hover */
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Headings */
+section h2 {
+    margin-bottom: 10px;
+    color: #ff6f61; /* Coral color for headings */
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* RSVP Form Styling */
+form {
+    background-color: #fff; /* White background for forms */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #ff6f61; /* Coral color for buttons */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #ff4d43; /* Slightly darker coral on hover */
+}
+
+/* Countdown Timer */
+#timer {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff6f61; /* Coral color for countdown */
+}
+
+/* FAQ Section */
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item h3 {
+    margin-bottom: 5px;
+}
+
+/* Social Media Links */
+#social-media ul {
+    list-style: none;
+    padding: 0;
+}
+
+#social-media ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+#social-media ul li a {
+    text-decoration: none;
+    color: #007bff; /* Blue color for links */
+}
+
+#social-media ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Wedding Registry */
+#registry ul {
+    list-style: none;
+    padding: 0;
+}
+
+#registry ul li {
+    margin-bottom: 10px;
+}
